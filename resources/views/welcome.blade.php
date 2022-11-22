@@ -30,7 +30,7 @@
 </nav> -->
 
 
-<div class="container mx-auto pl-[153px] pr-[116px]">
+<div class="container mx-auto pl-[153px] pr-[58px]">
     <div class="grid grid-cols-2">
         <div>
             <h1 class="font-bold text-[34px] mt-[128px]">Lorem Ipsum is simply dummy text of the printing and typesetting.</h1>
@@ -116,11 +116,11 @@
         </div>
     </div>
     <div class="container">
-        <div class="flex mt-[152px] ml-[151px] pb-[103px]">
+        <div class="flex mt-[152px] ml-[130px] pb-[103px]">
             <div class="bg-[#4641A7] w-[398px] h-[160px] flex justify-center" style="border-radius:70px 0px 0px 70px;">
                 <img src="assets/ftb3.png" class="w-[332px] h-[146px]" alt="foto">
             </div>
-            <div class="bg-[#FFFFFF] w-[800px] h-[160px]" style="border-radius:0px 70px 70px 0px;">
+            <div class="bg-[#FFFFFF] w-[750px] h-[160px]" style="border-radius:0px 70px 70px 0px;">
                 <h1 class="text-start font-bold font-[Poppins] text-[32px]" style="padding:46px 0 9px 41px;">Easy learning on here</h1>
                 <p class="text-[20px] font-light font-[Poppins] pl-[41px]">Lorem Ipsum has been the industry's standard dummy text ever.</p>
             </div>
