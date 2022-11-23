@@ -5,8 +5,8 @@
 <div class="container mx-auto pl-[153px] pr-[58px]" id="home">
     <div class="grid grid-cols-2">
         <div>
-            <h1 class="font-bold text-[34px] mt-[128px]">Lorem Ipsum is simply dummy text of the printing and typesetting.</h1>
-            <h2 class="text-[20px] mt-[20px]">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type.</h2>
+            <h1 class="font-bold text-start text-[34px] mt-[128px]">Lorem Ipsum is simply dummy text of the printing and typesetting.</h1>
+            <h2 class="text-[20px] mt-[20px] text-justify">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type.</h2>
             <span>
                 <button type="submit" class="w-[174px] h-[44px] mt-[35px] mb-[145px] bg-[#4641A7] rounded-[15px] text-white font-bold transition-all duration-[200ms] ease-in-out hover:scale-[1.1] hover:shadow-[0px 0px 5px] hover:shadow-black">Start Learn
                 </button>
@@ -62,7 +62,9 @@
         </div>
     </div>
     <div class="text-center mt-[48px]">
-        <button type="submit" class="rounded-[15px] w-[174px] h-[44px] border-[3px] border-[#4641A7] text-center text-[14px] transition-all duration-[200ms] ease-in-out hover:scale-[1.1] hover:bg-[#4641A7] hover:text-white hover:shadow-[0px 0px 5px] hover:shadow-black ">See All Material</button>
+        <a href="./textlearning.blade.php">
+            <button type="submit" class="rounded-[15px] w-[174px] h-[44px] border-[3px] border-[#4641A7] text-center text-[14px] transition-all duration-[200ms] ease-in-out hover:scale-[1.1] hover:bg-[#4641A7] hover:text-white hover:shadow-[0px 0px 5px] hover:shadow-black ">See All Material</button>
+        </a>
     </div>
     <div class="container">
         <div class="text-center ml-[80px]">
@@ -94,10 +96,12 @@
             </div>
             <div class="bg-[#FFFFFF] w-[750px] h-[160px]" style="border-radius:0px 70px 70px 0px;">
                 <h1 class="text-start font-bold font-[Poppins] text-[32px]" style="padding:46px 0 9px 41px;">Easy learning on here</h1>
-                <p class="text-[20px] font-light font-[Poppins] pl-[41px]">Lorem Ipsum has been the industry's standard dummy text ever.</p>
+                <p class="text-[20px] font-light font-[Poppins] pl-[41px] pb-[45px]">Lorem Ipsum has been the industry's standard dummy text ever.</p>
             </div>
         </div>
     </div>
+
+
 
 @endsection
 

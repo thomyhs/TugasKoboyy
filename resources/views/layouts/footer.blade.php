@@ -1,6 +1,6 @@
 @extends('layouts.header') @section('footer')
 
-    <div class="text-center w-auto h-[200px] bg-[#FFFFFF]">
+    <div class="text-center w-auto h-[300px] bg-[#FFFFFF]">
         <div class="grid grid-cols-3">
             <a href="#">
                 <h1 class="mt-[98px] font-bold text-[32px] font-[Poppins]">LOGO</h1>

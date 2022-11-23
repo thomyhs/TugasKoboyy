@@ -9,8 +9,8 @@
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
     </style>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&display=swap');
-    </style>
+        @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;600;700&display=swap');
+        </style>
 </head>
 <body>
     @yield('header')
