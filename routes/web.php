@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\MaterialController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +19,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/text-learning', function () {
-    return view('textlearning');
+// Route::get('/text-learning', function () {
+//     return view('textlearning');
+// });
+
+Route::get('/lojin', function () {
+    return view('lojin');
 });
+
+Route::get('home', 'DosenController@index');
+
+Auth::routes();
+
+Route::get('/posts', [MaterialController::class, 'index']);
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

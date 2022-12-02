@@ -6,7 +6,7 @@
     <div class="grid grid-cols-2">
         <div>
             <h1 class="font-bold text-start text-[34px] mt-[128px]">Lorem Ipsum is simply dummy text of the printing and typesetting.</h1>
-            <h2 class="text-[20px] mt-[20px] text-justify">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type.</h2>
+            <h2 class="text-[20px] pt-[20px] text-justify">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer took a galley of type.</h2>
             <span>
                 <button type="submit" class="w-[174px] h-[44px] mt-[35px] mb-[145px] bg-[#4641A7] rounded-[15px] text-white font-bold transition-all duration-[200ms] ease-in-out hover:scale-[1.1] hover:shadow-[0px 0px 5px] hover:shadow-black">Start Learn
                 </button>
@@ -78,7 +78,7 @@
         <div class="container flex justify-center ml-[50px]">
             <div class="grid grid-cols-3 gap-[35px] mt-[28px]">
                 <div class="vid1 transition-all duration-[200ms] ease-in-out hover:scale-[1.1] hover:shadow-[0px 0px 5px] hover:shadow-black">
-                    <iframe src="https://www.youtube.com/embed/58Tvo2HfDtI" frameborder="1" class="w-[350px] h-[250px] rounded-[25px]"></iframe>
+                    <iframe src="https://www.youtube.com/embed/58Tvo2HfDtI" frameborder="0" class="w-[350px] h-[250px] rounded-[25px]"></iframe>
                 </div>
                 <div class="vid2 transition-all duration-[200ms] ease-in-out hover:scale-[1.1] hover:shadow-[0px 0px 5px] hover:shadow-black">
                     <iframe src="https://www.youtube.com/embed/b_rPSf16ehY" frameborder="0" class="w-[350px] h-[250px] rounded-[25px]"></iframe>
